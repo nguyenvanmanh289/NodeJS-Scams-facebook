@@ -1,0 +1,428 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+@media only screen and ( min-width:500px){
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+}
+/*======================LOGO====================*/
+#mainlogo{
+    width: 30vw;
+    height: 30vh;
+    margin-right: 100px;
+    transition: linear all 0.5s;
+}
+#logo{
+    width: 100%;
+    height: 50%;
+    font-size: 5em;
+    color: #1877f2;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#intro{
+    width: 100%;
+    height: 50%;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+
+
+
+/*======================LOGGIN====================*/
+#login{
+    width: 30vw;
+    height: 59vh;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 15px rgb(224, 224, 224) ,-4px 4px 15px rgb(228, 228, 228) ;
+    
+  
+}
+/*==========*/
+form{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#input{
+    width: 100%;
+    height: 40%;
+    border-top: 10px;
+    border-radius: 10px;
+   
+    
+}
+.Input{
+    width: 85%;
+    padding: 5% 0 5% 5%;
+    text-align: left;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid rgb(209, 209, 209);
+    outline: none;
+}
+.Input:focus{
+    border: 2px solid rgb(82, 143, 255);
+}
+/*==========*/
+#loginButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 17%;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+#button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+ width: 90%;
+ height: 100%;
+ background-color:#1877f2;
+ color:white;
+ border-radius: 7px;
+ line-height: 75px;
+}
+/*==========*/
+#forgetPass{
+    width:100%;
+    height:7%;
+    margin-top: 2%;
+    text-align: center;
+    line-height: 30px;
+    color: #1877f2;
+}
+/*==========*/
+#line{
+    width:100%;
+    height:5%;
+    text-align: center;
+    color: rgb(182, 182, 182);  
+}
+/*==========*/
+#creAcc{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    height: 17%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+#creAccB{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 60%;
+    height: 70%;
+    background-color:#42b72a ;
+    line-height: 50px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+  }
+}
+
+
+@media only screen and (max-width:500px) and (max-height:400px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 90vh;
+        transition: linear all 0.5s;
+        
+    }
+    /*======================LOGO====================*/
+    #mainlogo{
+        display: none;
+
+    }
+    #logo{
+        display: none;
+    }
+    #intro{
+        display: none;
+    }
+    
+    
+    
+    
+    /*======================LOGGIN====================*/
+    #login{
+        margin-top: -50px;
+        width: 80vw;
+        height: 59vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 4px 15px rgb(224, 224, 224) ,-4px 4px 15px rgb(228, 228, 228) ;
+    }
+    /*==========*/
+    form{
+        margin-top:2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #input{
+        width: 100%;
+        height: 35%;
+        border-top: 10px;
+        border-radius: 10px;
+       
+        
+    }
+    .Input{
+        width: 85%;
+        padding: 5% 0 5% 5%;
+        text-align: left;
+        font-size: 17px;
+        border-radius: 7px;
+        border: 1px solid rgb(209, 209, 209);
+        outline: none;
+    }
+    .Input:focus{
+        border: 2px solid rgb(82, 143, 255);
+    }
+    /*==========*/
+    #loginButton{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 37%;
+        margin-top: 30%;
+        font-family: sans-serif;
+        font-size: 1em;
+    
+    }
+    #button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     width: 90%;
+     height: 100%;
+     background-color:#1877f2;
+     color:white;
+     border-radius: 7px;
+     line-height: 55px;
+    }
+    /*==========*/
+    #forgetPass{
+        display: none;
+    }
+    /*==========*/
+    #line{
+        display: none;  
+    }
+    /*==========*/
+    #creAcc{
+        display: none;
+    }
+    #creAccB{
+        display: none;
+     
+    }
+    
+}
+
+@media only screen and (max-width:500px) and (min-height:400px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 90vh;
+        
+    }
+    /*======================LOGO====================*/
+    #mainlogo{
+        width: 100vw;
+        height: 15vh;
+
+    }
+    #logo{
+        width: 100%;
+        height: 50%;
+        font-size: 2.3em;
+        color: #1f2731;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: #1877f2;
+    }
+    #intro{
+        width: 100%;
+        height: 50%;
+        font-size: 1em;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    
+    
+    
+    /*======================LOGGIN====================*/
+    #login{
+        width: 80vw;
+        height: 59vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 4px 15px rgb(224, 224, 224) ,-4px 4px 15px rgb(228, 228, 228) ;
+    }
+    /*==========*/
+    form{
+        margin-top:2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #input{
+        width: 100%;
+        height: 35%;
+        border-top: 10px;
+        border-radius: 10px;
+       
+        
+    }
+    .Input{
+        width: 85%;
+        padding: 5% 0 5% 5%;
+        text-align: left;
+        font-size: 17px;
+        border-radius: 7px;
+        border: 1px solid rgb(209, 209, 209);
+        outline: none;
+    }
+    .Input:focus{
+        border: 2px solid rgb(82, 143, 255);
+    }
+    /*==========*/
+    #loginButton{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 12%;
+        margin-top: 2%;
+        font-family: sans-serif;
+        font-size: 20px;
+    
+    }
+    #button{
+    display: flex;
+     width: 90%;
+     height: 100%;
+     background-color:#1877f2;
+     color:white;
+     border-radius: 7px;
+     justify-content: center;
+     align-items: center;
+     line-height: 55px;
+    }
+    /*==========*/
+    #forgetPass{
+        width:100%;
+        height:7%;
+        margin-top: 2%;
+        text-align: center;
+        line-height: 30px;
+        color: #1877f2;
+    }
+    /*==========*/
+    #line{
+        width:100%;
+        height:5%;
+        text-align: center;
+        color: rgb(182, 182, 182);  
+    }
+    /*==========*/
+    #creAcc{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 100%;
+        height: 17%;
+        margin-top: 2%;
+        border-radius: 10px;
+    }
+    #creAccB{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 60%;
+        background-color:#42b72a ;
+        
+        line-height: 45px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        font-size: 1em;
+        color: aliceblue;
+    }
+    
+    /*======================FOOTER====================*/
+    footer{
+        width: 100vw;
+        height:20vh;
+        background-color: blue;
+    }
+    #language{
+        width: 100vw;
+        height:5em;
+        background-color: blueviolet;
+    }
+    #service{
+        width: 100vw;
+        height: 5em;
+        background-color: red;
+    }
+    
+}
